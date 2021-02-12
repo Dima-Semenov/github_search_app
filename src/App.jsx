@@ -1,9 +1,9 @@
 import React, { useCallback, useEffect, useState } from 'react';
+import { UserList } from './Components/UserList/UserList';
+import { Header } from './Components/Header/Header';
 import { getUserRepo } from './api';
-import './App.scss';
 import { debounce } from 'lodash';
-import { UserList } from './Components/UserList/UserList/UserList';
-import { Header } from './Components/UserList/Header/Header';
+import './App.scss';
 import classNames from 'classnames';
 
 function useLocalStorage(key, initialValue) {
