@@ -1,4 +1,4 @@
-# Project Title
+# GitHub searcher
 
 Write here about your project in two-three sentences.
 - [DEMO](https://dima-semenov.github.io/github_search_app/)
