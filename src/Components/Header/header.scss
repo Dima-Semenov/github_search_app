@@ -1,0 +1,23 @@
+.header {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+
+  &__logo {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header {
+    flex-direction: column;
+
+    &__title {
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+  }
+}
